@@ -6,7 +6,7 @@ int main(void)
 {
     int num1, num2, suma, resta;
 
-    p("Suma entre dos numeros");
+    p("Suma y resta entre dos numeros");
 
     p("Ingrese un valor: ");
     s("%d", &num1);
