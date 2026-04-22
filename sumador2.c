@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    int num1, num2, suma;
+    int num1, num2, suma, resta;
 
     p("Suma entre dos numeros");
 
@@ -16,5 +16,7 @@ int main(void)
     suma = num1 + num2;
     p("%d + %d = %d", num1, num2, suma);
     
+    resta = num1 - num2;
+    p("%d - %d = %d", num1, num2, resta);
     return 0;
 }
